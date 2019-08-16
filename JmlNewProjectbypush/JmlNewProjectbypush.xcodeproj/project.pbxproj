@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C900EC8222D9CEDB00E5027B /* NetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C900EC8122D9CEDB00E5027B /* NetWorkManager.m */; };
+		C900E03022FE758F0055C6AB /* PPHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C900E02C22FE758F0055C6AB /* PPHTTPRequest.m */; };
+		C900E03122FE758F0055C6AB /* PPInterfacedConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C900E02F22FE758F0055C6AB /* PPInterfacedConst.m */; };
+		C90E68C62305332400164047 /* JpushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C90E68C32305332400164047 /* JpushManager.m */; };
+		C90E68C72305332400164047 /* AppDelegate+JpushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C90E68C42305332400164047 /* AppDelegate+JpushManager.m */; };
 		C9AAD58022D850EE002F27F2 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AAD57F22D850EE002F27F2 /* libresolv.tbd */; };
 		C9AAD58222D850FB002F27F2 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AAD58122D850FB002F27F2 /* UserNotifications.framework */; };
 		C9AAD58422D8510A002F27F2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AAD58322D8510A002F27F2 /* libz.tbd */; };
@@ -142,8 +145,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C900EC8022D9CEDB00E5027B /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
-		C900EC8122D9CEDB00E5027B /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
+		C900E02C22FE758F0055C6AB /* PPHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPHTTPRequest.m; sourceTree = "<group>"; };
+		C900E02D22FE758F0055C6AB /* PPHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPHTTPRequest.h; sourceTree = "<group>"; };
+		C900E02E22FE758F0055C6AB /* PPInterfacedConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPInterfacedConst.h; sourceTree = "<group>"; };
+		C900E02F22FE758F0055C6AB /* PPInterfacedConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPInterfacedConst.m; sourceTree = "<group>"; };
+		C90E68C22305332400164047 /* AppDelegate+JpushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JpushManager.h"; sourceTree = "<group>"; };
+		C90E68C32305332400164047 /* JpushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JpushManager.m; sourceTree = "<group>"; };
+		C90E68C42305332400164047 /* AppDelegate+JpushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JpushManager.m"; sourceTree = "<group>"; };
+		C90E68C52305332400164047 /* JpushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpushManager.h; sourceTree = "<group>"; };
 		C9AACFE722D7163F002F27F2 /* JmlNewProjectbypush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JmlNewProjectbypush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AAD57F22D850EE002F27F2 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		C9AAD58122D850FB002F27F2 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
@@ -351,7 +360,6 @@
 		C9AAD6CA22D86408002F27F2 /* TwoMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoMainViewController.m; sourceTree = "<group>"; };
 		C9AAD6CC22D86408002F27F2 /* LXMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMacro.h; sourceTree = "<group>"; };
 		C9AAD6CD22D86408002F27F2 /* JmlPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JmlPrefixHeader.pch; sourceTree = "<group>"; };
-		C9AAD6CE22D86408002F27F2 /* ApiUrlHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiUrlHeader.h; sourceTree = "<group>"; };
 		C9AAD73822D86651002F27F2 /* JmlNewProjectbypushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JmlNewProjectbypushTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AAD73A22D86651002F27F2 /* JmlNewProjectbypushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JmlNewProjectbypushTests.m; sourceTree = "<group>"; };
 		C9AAD73C22D86651002F27F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -406,13 +414,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C900EC7F22D9CEDB00E5027B /* 网络请求 */ = {
+		C90E68C12305332400164047 /* Jpush */ = {
 			isa = PBXGroup;
 			children = (
-				C900EC8022D9CEDB00E5027B /* NetWorkManager.h */,
-				C900EC8122D9CEDB00E5027B /* NetWorkManager.m */,
+				C90E68C22305332400164047 /* AppDelegate+JpushManager.h */,
+				C90E68C42305332400164047 /* AppDelegate+JpushManager.m */,
+				C90E68C52305332400164047 /* JpushManager.h */,
+				C90E68C32305332400164047 /* JpushManager.m */,
 			);
-			path = "网络请求";
+			path = Jpush;
 			sourceTree = "<group>";
 		};
 		C9AACFDE22D7163F002F27F2 = {
@@ -783,7 +793,6 @@
 		C9AAD68422D86408002F27F2 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				C900EC7F22D9CEDB00E5027B /* 网络请求 */,
 				C9AADE6622D87326002F27F2 /* TextView属性设置 */,
 				C9AAD68522D86408002F27F2 /* 导航控制器 */,
 				C9AAD68822D86408002F27F2 /* 启动广告 */,
@@ -894,6 +903,7 @@
 		C9AAD6AE22D86408002F27F2 /* Appdelegate */ = {
 			isa = PBXGroup;
 			children = (
+				C90E68C12305332400164047 /* Jpush */,
 				C9AAD6AF22D86408002F27F2 /* AppDelegate.h */,
 				C9AAD6B022D86408002F27F2 /* AppDelegate.m */,
 			);
@@ -1053,9 +1063,12 @@
 		C9AAD6CB22D86408002F27F2 /* Header */ = {
 			isa = PBXGroup;
 			children = (
+				C900E02D22FE758F0055C6AB /* PPHTTPRequest.h */,
+				C900E02C22FE758F0055C6AB /* PPHTTPRequest.m */,
+				C900E02E22FE758F0055C6AB /* PPInterfacedConst.h */,
+				C900E02F22FE758F0055C6AB /* PPInterfacedConst.m */,
 				C9AAD6CC22D86408002F27F2 /* LXMacro.h */,
 				C9AAD6CD22D86408002F27F2 /* JmlPrefixHeader.pch */,
-				C9AAD6CE22D86408002F27F2 /* ApiUrlHeader.h */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -1256,10 +1269,12 @@
 				C9AAD6F722D86408002F27F2 /* View+MASAdditions.m in Sources */,
 				C9AAD71B22D86408002F27F2 /* CustomNavViewController.m in Sources */,
 				C9AAD6EF22D86408002F27F2 /* MJRefreshAutoFooter.m in Sources */,
+				C900E03022FE758F0055C6AB /* PPHTTPRequest.m in Sources */,
 				C9AAD71722D86408002F27F2 /* NSData+ImageContentType.m in Sources */,
 				C9AAD71222D86408002F27F2 /* UIImage+MultiFormat.m in Sources */,
 				C9AAD71322D86408002F27F2 /* SDWebImageCompat.m in Sources */,
 				C9AAD6FF22D86408002F27F2 /* UIButton+AFNetworking.m in Sources */,
+				C900E03122FE758F0055C6AB /* PPInterfacedConst.m in Sources */,
 				C9AAD6E322D86408002F27F2 /* MJRefreshBackGifFooter.m in Sources */,
 				C9AADE6922D87326002F27F2 /* UITextView+YLTextView.m in Sources */,
 				C9AAD6FD22D86408002F27F2 /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -1283,6 +1298,7 @@
 				C9AAD6D422D86408002F27F2 /* PPNetworkHelper.m in Sources */,
 				C9AAD73122D86408002F27F2 /* TwoMainViewController.m in Sources */,
 				C9AAD70822D86408002F27F2 /* AFURLRequestSerialization.m in Sources */,
+				C90E68C62305332400164047 /* JpushManager.m in Sources */,
 				C9AAD70A22D86408002F27F2 /* AFSecurityPolicy.m in Sources */,
 				C9AAD72022D86408002F27F2 /* LXGuideViewController.m in Sources */,
 				C9AAD6D322D86408002F27F2 /* YYMemoryCache.m in Sources */,
@@ -1311,10 +1327,10 @@
 				C9AAD72F22D86408002F27F2 /* ThreeMainViewController.m in Sources */,
 				C9AAD72422D86408002F27F2 /* UIColor+YMHex.m in Sources */,
 				C9AAD6E022D86408002F27F2 /* YMRefresh.m in Sources */,
+				C90E68C72305332400164047 /* AppDelegate+JpushManager.m in Sources */,
 				C9AAD71F22D86408002F27F2 /* UIImage+LX.m in Sources */,
 				C9AAD6F622D86408002F27F2 /* NSArray+MASAdditions.m in Sources */,
 				C9AAD71A22D86408002F27F2 /* UIButton+WebCache.m in Sources */,
-				C900EC8222D9CEDB00E5027B /* NetWorkManager.m in Sources */,
 				C9AAD71122D86408002F27F2 /* UIImage+GIF.m in Sources */,
 				C9AAD70E22D86408002F27F2 /* SDWebImageDecoder.m in Sources */,
 				C9AAD70D22D86408002F27F2 /* SDWebImageManager.m in Sources */,

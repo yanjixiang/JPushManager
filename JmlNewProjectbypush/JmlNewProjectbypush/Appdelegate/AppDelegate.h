@@ -12,8 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong,nonatomic)RootViewController *tabBarController;
-
 
 @end
 

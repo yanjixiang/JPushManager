@@ -12,14 +12,15 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
-#import "ApiUrlHeader.h"
+
+#import "PPHTTPRequest.h"
 #import "LXMacro.h"
 //颜色
 #import "UIColor+YMHex.h"
 //控件位置获取
 #import "UIView+LLExtension.h"
 #import "Masonry.h"
-#import "NetWorkManager.h"
+
 #import "UIImageView+WebCache.h"
 #import "MBProgressHUD+CY.h"
 #import "YMRefresh.h"
